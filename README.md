@@ -112,7 +112,7 @@ The following method has being tested and successed under `Windows 10 Pro Versio
 - Install `TensorRT`.
     Follow the [Nvidia instruction of installation](https://docs.nvidia.com/deeplearning/tensorrt/install-guide/index.html#installing-zip).
     - Go to the [TensorRT download site](https://developer.nvidia.com/nvidia-tensorrt-8x-download).
-    - Download `TensorRT 8.5 GA for Windows 10 and CUDA 11.0, 11.1, 11.2, 11.3, 11.4, 11.5, 11.6, 11.7 and 11.8 ZIP Package`.
+    - Download `TensorRT 8.5 GA Update 1 for x86_64 Architecture for Windows and CUDA 11.0, 11.1, 11.2, 11.3, 11.4, 11.5, 11.6, 11.7 and 11.8 ZIP Package`.
     - Unzip the folder `TensorRT-8.5.2.2` from `TensorRT-8.5.2.2.Windows10.x86_64.cuda-11.8.cudnn8.6.zip`.
     - Add the `<your install path>\TensorRT-8.5.2.2\lib` into PATH environment variable.
     - Go to the folder `<your install path>\TensorRT-8.5.2.2\python`
@@ -123,7 +123,7 @@ The following method has being tested and successed under `Windows 10 Pro Versio
         ```
  - Install python requirement.
    ``` shell
-   pip install -r requirement.txt
+   pip install -r requirements.txt
    ```
 
 <details>
